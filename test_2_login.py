@@ -7,7 +7,7 @@ from loginPage import LoginPage
 from pytest import mark
 
 headers= "email,password"
-data =[('benten@c.com','asdf1234'),('benisen@c.com','fdsa1234')]
+data =[('benten@c.com','######'),('benisen@c.com','fdsa1234')]
 
 @mark.parametrize(headers,
                   data)
